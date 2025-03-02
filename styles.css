@@ -11,14 +11,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 20px;
+    padding: 15px 20px;
     background-color: #2c3e50;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
-    border-bottom: 3px solid #ddd; 
+    color: white;
 }
 
 .logo img {
     width: 50px;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 22px;
 }
 
 .nav-links {
@@ -34,6 +38,12 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover, .nav-links .active {
+    color: #f39c12;
 }
 
 /* Hero Section */

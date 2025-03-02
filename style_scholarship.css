@@ -1,3 +1,7 @@
+.nav-links a:hover, .nav-links .active {
+    color: #f39c12;
+}
+
 /* Container for scholarships */
 .scholarship-container {
     display: flex;
