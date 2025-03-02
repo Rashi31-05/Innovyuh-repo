@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style_login.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username (Email)</label>
+            <input type="text" id="username" placeholder="Enter your email" required>
+            <small class="error" id="username-error"></small>
+
+            <label for="password">Password</label>
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <input type="checkbox" id="show-password" onclick="togglePassword()"> 
+                <label for="show-password">Show Password</label>
+            </div>
+            <small class="error" id="password-error"></small>
+
+            <a href="#" class="forgot-password">Forgot Password?</a>
+
+            <button type="submit" class="login-btn">Log In</button>
+
+            <!-- Success Message -->
+            <p id="success-message" style="display: none;"></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

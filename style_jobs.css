@@ -1,0 +1,36 @@
+
+        /* Container for Jobs & Internships */
+        .jobs-internships-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 40px;
+        }
+
+        /* Styling for each column */
+        .jobs-section, .internships-section {
+            flex: 1;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .jobs-section h2, .internships-section h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .jobs-section ul, .internships-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .jobs-section li, .internships-section li {
+            margin: 10px 0;
+            padding: 8px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }

@@ -1,0 +1,35 @@
+/* Container for scholarships */
+.scholarship-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+}
+
+/* Styling for each column */
+.gov-scholarships, .private-scholarships {
+    flex: 1;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gov-scholarships h2, .private-scholarships h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.gov-scholarships ul, .private-scholarships ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.gov-scholarships li, .private-scholarships li {
+    margin: 10px 0;
+    padding: 8px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
